@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #fff8fb, #f8f3ff);
+    color: #403841;
+}
+
+.page {
+    width: 100%;
+    max-width: 620px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-logo {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #f3cddd, #dcd3f5);
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.profile h1 {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 30px;
+}
+
+.tagline {
+    margin: 0;
+    color: #9b7188;
+    font-size: 14px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 30px;
+}
+
+.social-links a {
+    display: block;
+    padding: 16px;
+    background: white;
+    border: 1px solid #eadfe6;
+    border-radius: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #514650;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.social-links a:hover {
+    transform: translateY(-2px);
+    background: #fff0f6;
+}
+
+.content-section {
+    margin-top: 35px;
+    padding: 25px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #eadfe8;
+    border-radius: 22px;
+}
+
+.content-section h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.section-text {
+    margin-top: 8px;
+    text-align: center;
+    color: #8a7d87;
+    font-size: 14px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.website-link {
+    display: block;
+    padding: 15px;
+    background: white;
+    border: 1px solid #e6dce5;
+    border-radius: 13px;
+    text-align: center;
+    text-decoration: none;
+    color: #554853;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.website-link:hover {
+    transform: translateY(-2px);
+    background: #fff7fb;
+}
+
+.empty-message {
+    margin: 5px 0;
+    text-align: center;
+    color: #998c95;
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 45px;
+    text-align: center;
+    color: #998c95;
+    font-size: 13px;
+}
+
+@media (max-width: 500px) {
+    .page {
+        padding: 35px 15px;
+    }
+
+    .profile h1 {
+        font-size: 25px;
+    }
+
+    .content-section {
+        padding: 22px 15px;
+    }
+}
